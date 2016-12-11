@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Edit
+Bundle-SymbolicName: org.sourcepit.emfx.edit
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.emf.edit
+Export-Package: org.sourcepit.emfx.edit.provider

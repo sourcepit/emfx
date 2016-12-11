@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.sourcepit.emfx.ecore.editor.XEcoreEditorID"
+            name="Bernds Ecore Editor"
+            icon="platform:/plugin/org.eclipse.emf.ecore.editor/icons/full/obj16/EcoreModelFile.gif"
+            class="org.sourcepit.emfx.ecore.editor.XEcoreEditor"
+            contributorClass="org.eclipse.emf.ecore.presentation.EcoreActionBarContributor">
+         <contentTypeBinding contentTypeId="org.eclipse.emf.ecore"/>
+         <contentTypeBinding contentTypeId="org.eclipse.emf.emof"/>
+      </editor>
+   </extension>
+   
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="org.sourcepit.emfx.ecore.editor.XReflectiveEditorID"
+            name="Bernds Reflective Editor"
+            icon="platform:/plugin/org.eclipse.emf.edit/icons/full/obj16/ModelFile.gif"
+            class="org.sourcepit.emfx.ecore.editor.XEcoreEditor"
+            contributorClass="org.eclipse.emf.ecore.presentation.EcoreActionBarContributor$Reflective">
+         <contentTypeBinding contentTypeId="org.eclipse.emf.ecore.xmi"/>
+      </editor>
+   </extension>
+
+</plugin>
